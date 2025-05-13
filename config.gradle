@@ -1,0 +1,11 @@
+android {
+    buildTypes {
+        release {
+            buildConfigField("Boolean", "IS_DEMO", "false")
+        }
+
+        debug {
+            buildConfigField("Boolean", "IS_DEMO", "true")
+        }
+    }
+}
